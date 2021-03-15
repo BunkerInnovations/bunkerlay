@@ -14,7 +14,7 @@ src_configure() {
 src_install() {
 cp "2.2.tar.gz" "$HOME/duco"
 cd "$HOME/duco"
-tar -xzf "$2.2.tar.gz"
-rm -rf "$2.2.tar.gz"
+tar -xzf "2.2.tar.gz"
+rm -rf "2.2.tar.gz"
 }
 
